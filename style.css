@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+#main-container{
+    justify-content : center;
+    margin:100px auto 0;
+    display:flex;
+    flex-direction: row;
+    font-family:sans-serif;
+}
+#form{
+    margin-top:-15px;
+    margin-right:20px;
+    padding:10px;
+    padding-top:0px;
+    flex-basis:350px;
+    font-family: 'Varela Round';
+    clear:both;
+}
+#form input{
+    font-size:20px;
+    font-family: 'Varela Round';
+    border:2px solid #F1F8E9;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    min-height:40px;
+    background-color: #E0F7FA;
+    border-radius : 5px;
+}
+#form select{
+    margin-top:30px;
+    background-color: #E0F7FA;
+    font-size:22px;
+    border-radius : 5px;
+    border: 2px solid #F1F8E9;
+}
+#form option{
+    background-color: #E0F7FA;
+    font-size:22px;
+    border-radius : 5px;
+    border: 2px solid #F1F8E9;
+}
+#form #section{
+    float:left;
+    width:45%
+}
+#form #grade{
+    float:right;
+    width:30%;
+    margin-top:25px;
+    height:25px;
+}
+#form #section + label{
+    float:left;
+    width:15%;
+    margin-top:33px;
+    padding-left:10px;
+}
+#exam-type{
+    clear:both;
+    width:60%;
+    margin-top:20px;
+    margin-left:60px;
+}
+#form label{
+    padding-bottom:8px;
+    display:block;
+    font-size:20px;
+    margin-top:20px;
+}
+#form button{
+    margin-top:37px;
+    background-color: #66BB6A;
+    color: white;
+    font-size: 22px;
+    width:45%;
+    float:left;
+    padding:13px 0px 13px 0px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    border-radius : 8px;
+}
+#form button.find{
+    float:right;
+}
+#form button.avg-btn{
+    width:80%;
+    clear:both;
+}
+#form button.min-btn{
+    width:80%;
+    clear:both;
+}
+#form button.max-btn{
+    width:80%;
+    clear:both;
+}
+#display-box{
+    background-color: #F1F8E9;
+    flex-basis:850px;
+    display: flex;
+    flex-direction: column;
+
+    margin-left:50px;
+    min-height:700px;
+}
+#disp-table{
+    border-collapse: separate;
+    border-spacing: 25px;
+    width:100%;
+}
+#disp-table td{
+    font-family: 'Quicksand';
+    padding-left:10px;
+    font-size:20px;
+}
+#disp-table thead td{
+    font-weight: 800;
+    font-size:25px;
+}
+#avg_div{
+    float:right;
+    width:100%;
+}
+#avg_div h1{
+    font-size:22px;
+    font-weight:600;
+    font-family: 'Varela Round';
+    text-align: left;
+    padding-left:363px;
+}

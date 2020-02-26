@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marks Recorder</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Varela+Round&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="form">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <select id="section">
+                    <option>Section</option>
+                    <option>Ninja</option>
+                    <option>Spartan</option>
+                    <option>Samurai</option>
+                </select>
+                <label for="grade">Grade</label>
+                <input type="text" id="grade">
+                <select id="exam-type">
+                    <option>Exam-Type</option>
+                    <option>Coding Session</option>
+                    <option>Assignment</option>
+                    <option>Quiz</option>
+                </select>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject">
+                <button type="submit" class="add">A D D</button>
+                <button class="find">F I N D</button>
+                <button class="avg-btn">Calculate Average</button>
+                <button class="min-btn">Find Minimum</button>
+                <button class="max-btn">Find Maximum</button>
+            </div>
+            <div id="display-box" class="hide-display">
+                <table id="disp-table">
+                    <thead>
+                        <tr>
+                            <td>Section</td>
+                            <td>Name</td>
+                            <td>Subject</td>
+                            <td>Grade</td>
+                            <td>Exam Type</td>
+                        </tr>
+                    </thead>
+                    <tbody id="disp-data">
+
+                    </tbody>
+                </table>
+                <div id = "avg_div">
+                    <hr>
+                    <h1><span id="typ"></span><span id="avg"></span></h1>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="script.js">
+    </script>
+</html>
